@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "outer-space-cosmos-stars-background-600nw-2153688383.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "outer-space-cosmos-stars-background-600nw-2153688383 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "outer-space-cosmos-stars-background-600nw-2153688383 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

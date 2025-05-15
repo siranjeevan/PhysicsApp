@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "cartoon-solar-system-planet-in-flat-style-jupiter-planet-on-dark-space-with-stars-illustration-vector-Photoroom.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

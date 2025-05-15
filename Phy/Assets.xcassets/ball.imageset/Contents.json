@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "cartoon-soccer-ball-y1Mv8yA-600-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "cartoon-soccer-ball-y1Mv8yA-600-removebg-preview 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "cartoon-soccer-ball-y1Mv8yA-600-removebg-preview 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "venus-planet-computer-icons-clip-art-venus-cliparts-thumbnail-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "venus-planet-computer-icons-clip-art-venus-cliparts-thumbnail-removebg-preview 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "venus-planet-computer-icons-clip-art-venus-cliparts-thumbnail-removebg-preview 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

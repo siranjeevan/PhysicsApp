@@ -180,7 +180,7 @@ struct Force: View {
             }
             .offset(y : 200)
                 .fullScreenCover(isPresented: $preview) {
-                    First_law()
+                    definition()
                 }
             
 

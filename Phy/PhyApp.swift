@@ -11,7 +11,7 @@ import SwiftUI
 struct PhyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            definition()
         }
     }
 }

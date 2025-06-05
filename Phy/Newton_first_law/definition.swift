@@ -10,7 +10,7 @@ import PhysicsAppPagkage
 
 let soundManager  = SoundManager()
 
-struct First_law: View {
+struct definition: View {
     @State private var fade = false
     @State private var isPlaying = true
     @State private var navigateToForce: Bool = false
@@ -93,5 +93,5 @@ struct First_law: View {
 }
 
 #Preview {
-    First_law()
+    definition()
 }

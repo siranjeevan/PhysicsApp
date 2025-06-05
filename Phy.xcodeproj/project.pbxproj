@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B9DEB272DD6541B00FD1E32 /* PhysicsAppPagkage in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9DEB262DD6541B00FD1E32 /* PhysicsAppPagkage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4BBD14F82DD0C77100349035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B9DEB242DD6536400FD1E32 /* PhysicsAppPagkage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PhysicsAppPagkage; path = /Users/iosteam/Desktop/PhysicsAppPagkage; sourceTree = "<absolute>"; };
 		4BBD14E92DD0C76F00349035 /* Phy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD14F72DD0C77100349035 /* PhyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD15012DD0C77100349035 /* PhyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B995A8C2DD120C100F816A3 /* AudioFolder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioFolder;
+			sourceTree = "<group>";
+		};
 		4BBD14EB2DD0C76F00349035 /* Phy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Phy;
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9DEB272DD6541B00FD1E32 /* PhysicsAppPagkage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +86,8 @@
 		4BBD14E02DD0C76F00349035 = {
 			isa = PBXGroup;
 			children = (
+				4B9DEB242DD6536400FD1E32 /* PhysicsAppPagkage */,
+				4B995A8C2DD120C100F816A3 /* AudioFolder */,
 				4BBD14EB2DD0C76F00349035 /* Phy */,
 				4BBD14FA2DD0C77100349035 /* PhyTests */,
 				4BBD15042DD0C77100349035 /* PhyUITests */,
@@ -108,10 +121,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				4B995A8C2DD120C100F816A3 /* AudioFolder */,
 				4BBD14EB2DD0C76F00349035 /* Phy */,
 			);
 			name = Phy;
 			packageProductDependencies = (
+				4B9DEB262DD6541B00FD1E32 /* PhysicsAppPagkage */,
 			);
 			productName = Phy;
 			productReference = 4BBD14E92DD0C76F00349035 /* Phy.app */;
@@ -195,6 +210,9 @@
 			);
 			mainGroup = 4BBD14E02DD0C76F00349035;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B9DEB252DD6541B00FD1E32 /* XCLocalSwiftPackageReference "../../../Desktop/PhysicsAppPagkage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4BBD14EA2DD0C76F00349035 /* Products */;
 			projectDirPath = "";
@@ -401,8 +419,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -438,8 +456,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -583,6 +601,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4B9DEB252DD6541B00FD1E32 /* XCLocalSwiftPackageReference "../../../Desktop/PhysicsAppPagkage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../Desktop/PhysicsAppPagkage;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B9DEB262DD6541B00FD1E32 /* PhysicsAppPagkage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PhysicsAppPagkage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BBD14E12DD0C76F00349035 /* Project object */;
 }
